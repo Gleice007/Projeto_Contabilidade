@@ -33,7 +33,7 @@ from time import sleep
 
 
 # 1º Entrar na planilha.
-workbook = openpyxl.load_workbook('produtos_ficticios.xlsx')
+workbook = openpyxl.load_workbook('C:/Users/gleiciele.silva/Desktop/Freelancer_Contabilidade/Projeto_Contabilidade/produtos_ficticios.xlsx')
 sheet_produtos = workbook['Produtos']
 
 # 2º Copiar informações de um campo e colar no seu campo correspondente.
